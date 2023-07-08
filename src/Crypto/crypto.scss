@@ -33,13 +33,13 @@
             padding: 10px 0;
             .crypto-info {
                 display: flex;
-                height: 85px;
+                height: 65px;
                 width: 90%;
                 background-color: rgb(234, 238, 238);
                 border-radius: 10px;
                 .image {
                     height: 100%;
-                    width: 30%;
+                    width: 20%;
                     border: 1px solid red;
                     // background-color: red;
                 }
@@ -47,6 +47,9 @@
                     margin: 0 20px;
                     padding: 10px 0;
                     border: 1px solid blue;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                     h1 {
                         font-size: large;
                         font-family: "Poppins", sans-serif;
